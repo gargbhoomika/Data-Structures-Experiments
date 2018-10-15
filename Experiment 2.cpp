@@ -4,7 +4,7 @@ int main()
 {
   int array[100], num, i, n;
 
-  cout<<"Enter number of elements in array\n";
+  cout<<"Enter number of elements in array: ";
   cin>>n;
 
   cout<<"Enter integers: ";

@@ -10,7 +10,7 @@ void Display();
 
 int main()
 {
-    cout<<"Enter Size of Array";
+    cout<<"Enter Size of Array: ";
     cin>>n;
     cout<<"Insert Elements in the array : \n";
     for(i=0;i<n;i++)
@@ -100,7 +100,8 @@ void Display()
 {
     for(i=0;i<n;i++)
     {
-        cout<<a[i];
+        cout<<a[i]<<" ";
     }
+    cout<<"\n";
 }
 
